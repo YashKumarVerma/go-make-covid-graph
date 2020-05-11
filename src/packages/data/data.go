@@ -25,13 +25,13 @@ func Fetch() []float64 {
 	resp, err := http.Get("https://api.covid19api.com/country/india/status/confirmed")
 
 	if err != nil {
-		panic("Unable to connect to server")
+		return fmt.Errorf("Unable to connect to server")
 	}
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		panic("Invalid body received")
+		return fmt.Errorf("Invalid body received")
 	}
 
 	var response []responseStructure

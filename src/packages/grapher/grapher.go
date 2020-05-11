@@ -8,6 +8,6 @@ import (
 
 // Generate creates graph from passed data
 func Generate(data []float64) {
-	graph := asciigraph.Plot(data, asciigraph.Height(40), asciigraph.Width(100))
+	graph := asciigraph.Plot(data, asciigraph.Height(30), asciigraph.Width(100))
 	fmt.Println(graph)
 }

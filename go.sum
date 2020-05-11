@@ -1,0 +1,4 @@
+github.com/guptarohit/asciigraph v0.4.1 h1:YHmCMN8VH81BIUIgTg2Fs3B52QDxNZw2RQ6j5pGoSxo=
+github.com/guptarohit/asciigraph v0.4.1/go.mod h1:9fYEfE5IGJGxlP1B+w8wHFy7sNZMhPtn59f0RLtpRFM=
+github.com/relvacode/iso8601 v1.0.0 h1:RAK/WvulaVY1LqtWdKWZTj1j0aFCc7fMe7poNvdFYzY=
+github.com/relvacode/iso8601 v1.0.0/go.mod h1:FlNp+jz+TXpyRqgmM7tnzHHzBnz776kmAH2h3sZCn0I=
